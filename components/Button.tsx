@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import ButtonProps from "../types";
+import ButtonProps from "../types/index.ts";
 const ButtonComponent = ({ label, icon, colors }: ButtonProps) => {
   return (
     <div className={` rounded rounded-4xl flex gap-2 cursor-pointer text-center items-center`}>
