@@ -1,6 +1,5 @@
 export type ButtonProps = {
-  content: string;
+  label: string;
   icon?: string;
-  color: string;
-  bg: string;
+  colors: string;
 };
