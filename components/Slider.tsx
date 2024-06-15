@@ -10,7 +10,7 @@ const Slider = () => {
         >
           <div className="flex gap-3 justify-start m-5 items-center">
             <div className="bg-green-600 text-white p-3 rounded-full">
-              <Image src="/folded-map.svg" width={24} height={24} />
+              <Image src="/folded-map.svg" alt="image" width={24} height={24} />
             </div>
             <div className="flex flex-col gap-2 text-slate-800">
               <h2 className="font-bold text-xl">Putuk Truno Camp</h2>
@@ -18,10 +18,10 @@ const Slider = () => {
             </div>
           </div>
           <div className="flex m-5 items-center">
-            <Image src="/person-1.webp" width={30} height={30} />
-            <Image src="/person-2.webp" width={30} height={30} className="-mx-2" />
-            <Image src="/person-4.webp" width={30} height={30} className="-mx-1" />
-            <Image src="/person-1.webp" width={30} height={30} className="-mx-1" />
+            <Image src="/person-1.webp" alt="image" width={30} height={30} />
+            <Image src="/person-2.webp" alt="image" width={30} height={30} className="-mx-2" />
+            <Image src="/person-4.webp" alt="image" width={30} height={30} className="-mx-1" />
+            <Image src="/person-1.webp" alt="image" width={30} height={30} className="-mx-1" />
             <h2 className="font-extrabold text-slate-900 ml-10">50+ Joined</h2>
           </div>
         </div>
@@ -32,7 +32,7 @@ const Slider = () => {
           <div className="flex gap-3 justify-start m-5 items-center">
             <div className="bg-green-600 text-white p-3 rounded-full">
               {" "}
-              <Image src="/folded-map.svg" width={24} height={24} />
+              <Image src="/folded-map.svg" alt="image" width={24} height={24} />
             </div>
             <div className="flex flex-col gap-2 text-slate-800">
               <h2 className="font-bold text-xl">Mountain View Camp</h2>
@@ -41,10 +41,10 @@ const Slider = () => {
           </div>
           <div className="flex m-5 items-center">
             {" "}
-            <Image src="/person-1.webp" width={30} height={30} />
-            <Image src="/person-2.webp" width={30} height={30} className="-mx-2" />
-            <Image src="/person-4.webp" width={30} height={30} className="-mx-1" />
-            <Image src="/person-1.webp" width={30} height={30} className="-mx-1" />
+            <Image src="/person-1.webp" alt="image" width={30} height={30} />
+            <Image src="/person-2.webp" alt="image" width={30} height={30} className="-mx-2" />
+            <Image src="/person-4.webp" alt="image" width={30} height={30} className="-mx-1" />
+            <Image src="/person-1.webp" alt="image" width={30} height={30} className="-mx-1" />
             <h2 className="font-extrabold text-slate-900 ml-10">50+ Joined</h2>
           </div>
         </div>

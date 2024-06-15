@@ -8,7 +8,7 @@ const Footer = () => {
     <div id="contact" className=" py-8 lg:grid lg:grid-cols-4 md:grid-cols-2 rounded-md mt-20">
       <div className="px-3">
         <h1>
-          <Image src="/hilink-logo.svg" width={64} height={42} />
+          <Image src="/hilink-logo.svg" alt="image" width={64} height={42} />
         </h1>
       </div>
       <div className="grid grid-cols-2  md:grid-cols-2 px-3">
@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="flex gap-2 items-center flex-wrap">
           {SOCIALS.links.map((link, index) => (
             <div key={index}>
-              <Image src={link} width={24} height={24} />
+              <Image src={link} alt="image" width={24} height={24} />
             </div>
           ))}
         </div>

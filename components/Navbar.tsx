@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className=" flex justify-between items-center py-4 px-2  top-0 sticky z-40 bg-white shandow-lg">
       <div>
         <h1>
-          <Image src="/hilink-logo.svg" width={64} height={42} />
+          <Image src="/hilink-logo.svg" alt="image" width={64} height={42} />
         </h1>
       </div>
       <div className="hidden lg:flex  flex-row justify-between gap-4 items-center ">

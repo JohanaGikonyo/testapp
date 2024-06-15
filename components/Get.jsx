@@ -22,7 +22,7 @@ const Get = () => {
       </div>
       <div className=" p-10 hidden lg:block ">
         {" "}
-        <Image src="/phones.webp" width={400} height={400} className="h-auto w-[100%]" />
+        <Image src="/phones.webp" alt="image" width={400} height={400} className="h-auto w-[100%]" />
       </div>
     </div>
   );

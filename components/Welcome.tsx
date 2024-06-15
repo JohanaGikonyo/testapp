@@ -6,7 +6,7 @@ const Welcome = () => {
     <div className="max-w-[1440px]  px-2 py-4 my-4">
       <div className="lg:flex items-center gap-4 ">
         <div>
-          <Image src="/camp.svg" width={30} height={30} className="-mb-2" />
+          <Image src="/camp.svg" alt="image" width={30} height={30} className="-mb-2" />
           <h1 className="font-bold text-4xl">Putuk Truno Camp Area</h1>
           <p className="text-gray-500 my-8">
             We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of
@@ -16,7 +16,7 @@ const Welcome = () => {
             <span className="flex gap-2">
               {Array.from({ length: 5 }).map((_, index) => (
                 <div key={index}>
-                  <Image src="/star.svg" width={24} height={24} />
+                  <Image src="/star.svg" alt="image" width={24} height={24} />
                 </div>
               ))}
             </span>
@@ -35,7 +35,7 @@ const Welcome = () => {
             Location{" "}
             <span>
               {" "}
-              <Image src="/close.svg" width={24} height={24} />
+              <Image src="/close.svg" alt="image" width={24} height={24} />
             </span>
           </p>
           <h2 className="font-extrabold">Aguas Calientes</h2>

@@ -5,7 +5,7 @@ const Guide = () => {
     <div className="my-10" id="about">
       <div>
         {" "}
-        <Image src="/camp.svg" width={32} height={32} className="-mb-3" />
+        <Image src="/camp.svg" alt="image" width={32} height={32} className="-mb-3" />
         <h2 className="text-green-600 uppercase text-2xl">We are Here For You</h2>
       </div>
       <div className="font-extrabold text-4xl my-3">
@@ -26,7 +26,7 @@ const Guide = () => {
         <div className="bg-white flex flex-row gap-2 items-center justify-around h-64 w-64 rounded-2xl">
           <div>
             {" "}
-            <Image src="/meter.svg" width={32} height={32} className="-mb-3" />
+            <Image src="/meter.svg" alt="image" width={32} height={32} className="-mb-3" />
           </div>
           <div className="flex flex-col gap-3   justify-between">
             <div className="flex flex-col gap-2">
