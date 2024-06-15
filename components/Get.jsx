@@ -13,7 +13,11 @@ const Get = () => {
         <div className="flex gap-5 flex-wrap">
           {" "}
           <ButtonComponent label="App Store" colors="font-bold bg-white text-green-500  px-8 py-2 " icon="/apple.svg" />
-          <ButtonComponent label="Play Store" colors="font-bold text-white  px-8 py-2 " icon="/android.svg" />
+          <ButtonComponent
+            label="Play Store"
+            colors="font-bold text-white  px-8 py-2 border border-white "
+            icon="/android.svg"
+          />
         </div>
       </div>
       <div className=" p-10 hidden lg:block ">
